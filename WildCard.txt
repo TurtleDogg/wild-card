@@ -1,0 +1,22 @@
+﻿#include <iostream>
+#include <string>
+
+void wildCard(){
+    int i = 1;
+    int wildCardInput;
+    std::cout << "Enter four numbers:" << std::endl;
+    while (i <= 4){  
+        std::cout << "Number " << i << ":" <<std::endl;
+        std::cin >> wildCardInput;
+        std::string wildCardArray;
+        wildCardArray[i] = wildCardInput;
+        i++;
+    }
+}
+    
+
+int main()
+{
+  wildCard();
+  
+}
